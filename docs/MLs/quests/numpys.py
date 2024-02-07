@@ -51,5 +51,8 @@ c = np.array([[7, 8, 9], [10, 11, 12]])
 a = a[np.newaxis]
 b = b[np.newaxis]
 np.concatenate((a,b,c), axis=0)
-
+# array([[ 1,  2,  3],
+#        [ 4,  5,  6],
+#        [ 7,  8,  9],
+#        [10, 11, 12]])
 pass
